@@ -14,8 +14,4 @@ class Module
 
     const_get(constant.join('::'))
   end
-
-  def filename
-    name.gsub('::', '/').downcase
-  end
 end
